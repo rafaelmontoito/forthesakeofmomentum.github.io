@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    padding-top: 40px;
+
+    align-items: center;
+    justify-items: center;
+}
+
+video{
+    align-self: center;
+    justify-self: center;
+    height: 75vh;
+}
+
+.column1, .column2 {
+    padding-top: 50px;
+  float: left;
+  width: 50%;
+    align-content: flex-end;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

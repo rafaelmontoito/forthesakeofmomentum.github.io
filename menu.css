@@ -1,0 +1,50 @@
+body{
+    align-items: center;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    height: 100vh;
+    background-image: url(background2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3{
+    font-family: 'MadeOuterSansRegular', sans-serif;
+    color: black;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-top: 30px;
+   
+}
+
+.menu{
+    width: 20vw;
+    padding-left: 30px;
+    position: fixed;
+}
+
+a{
+    text-decoration: none;
+}
+
+.item1:hover{
+    font-size: 40px;
+    
+}
+
+@font-face {
+    font-family:MadeOuterSansRegular;
+    src: url(MadeOuterSansRegular.otf);
+}
+
+@font-face {
+    font-family:MadeOuterSansThin;
+    src: url(MadeOuterSansThin.otf);
+}
+
+@font-face {
+    font-family:MadeOuterSansLight;
+    src: url(MadeOuterSansLight.otf);
+}

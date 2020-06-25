@@ -1,0 +1,154 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-family: 'MadeOuterSansRegular', sans-serif;
+}
+
+h3{
+    color: white;
+    font-family: 'MadeOuterSansRegular', sans-serif;
+}
+
+p{
+    color: white;
+    font-family: 'MadeOuterSansLight', sans-serif;
+}
+
+h6{
+    color: white;
+    font-family: 'MadeOuterSansThin', sans-serif;
+    text-align: center;
+}
+
+.wrapper{
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    text-align: center
+}
+
+.wrapper video{
+    padding-top: 100px;
+}
+
+.wrapper2{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
+.about{
+    padding-top: 50px;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+.about2{
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: none;
+  color: none;
+  padding: 16px;
+  padding-left: 50px;
+  border: none;
+  z-index: 3;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  position: fixed;
+  z-index: 3;
+  height: 50px;
+  font-family: 'MadeOuterSansRegular', sans-serif;
+}
+
+.dropdown img{
+height: 50px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: none;
+}
+
+.item1:hover{
+    background-color: none;
+    font-size: 20px;
+}
+
+.item2{
+    background-color: none;
+    font-size: 20px;
+}
+.item3:hover{
+    background-color: none;
+    font-size: 20px;
+}
+.item4:hover{
+    background-color: none;
+    font-size: 20px;
+}
+.item5:hover{
+    background-color: none;
+    font-size: 20px;
+}
+
+.item6:hover{
+    background-color: none;
+    font-size: 20px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+  background-color: black;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 20px 24px;
+  text-decoration: none;
+  display: block;
+  font-family: 'MadeOuterSansRegular', sans-serif;
+  text-align: center;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: none;}
+
+
+@font-face {
+    font-family:MadeOuterSansRegular;
+    src: url(MadeOuterSansRegular.otf);
+}
+
+@font-face {
+    font-family:MadeOuterSansThin;
+    src: url(MadeOuterSansThin.otf);
+}
+
+@font-face {
+    font-family:MadeOuterSansLight;
+    src: url(MadeOuterSansLight.otf);
+}

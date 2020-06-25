@@ -1,0 +1,196 @@
+body{
+    align-items: center;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    height: 100vh;
+    background-image: url(background3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-family: 'MadeOuterSansRegular', sans-serif;
+    text-decoration: none;
+}
+
+.column1:hover{
+    background-image: url(e_red.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.column2:hover{
+    background-image: url(e_red2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.column3:hover{
+    background-image: url(e_purple.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.column4:hover{
+    background-image: url(e_blue.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+h1{
+    font-family: 'MadeOuterSansRegular', sans-serif;
+    color: black;
+    padding-top: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+p{
+    font-family: MadeOuterSansRegular, sans-serif;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: left;
+    padding-bottom: 300px;
+    padding-top: 260px;
+    color: white;
+    display: flex;
+}
+
+.video-container{
+    display: inline;
+    overflow: hidden;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+.column1, .column2, .column3, .column4 {
+  float: left;
+  width: 25%;
+   
+}
+
+/* Clear floats after the columns */
+
+.row{
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+    padding-top: 100px;
+ 
+    
+}
+
+@font-face {
+    font-family:MadeOuterSansRegular;
+    src: url(MadeOuterSansRegular.otf);
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: none;
+  color: none;
+  padding: 16px;
+  border: none;
+  z-index: 3;
+  padding-right: ; 
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  position: fixed;
+  z-index: 3;
+  height: 50px;
+  font-family: 'MadeOuterSansRegular', sans-serif;
+}
+
+.dropdown img{
+height: 50px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+  background-color: black;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 20px 24px;
+  text-decoration: none;
+  display: block;
+  font-family: 'MadeOuterSansRegular', sans-serif;
+  text-align: center;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: none;
+}
+
+.item1:hover{
+    background-color: none;
+    background-image: url(e_outline.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item2:hover{
+    background-color: none;
+    background-image: url(e_red.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item3:hover{
+    background-color: none;
+    background-image: url(e_red2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item4:hover{
+    background-color: none;
+    background-image: url(e_purple.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.item5{
+    background-color: none;
+    background-image: url(e_blue.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: none;}
+
+.seta{
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 21;
+}
+
+

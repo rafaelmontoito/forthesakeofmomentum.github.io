@@ -1,0 +1,95 @@
+body{
+    align-items: center;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    height: 100vh;
+    background-image: url(background2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h6{
+    color: black;
+    font-family: 'MadeOuterSansThin', sans-serif;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+h3{
+    font-family: 'MadeOuterSansLight', sans-serif;
+}
+
+a{
+    color: black;
+    font-family: 'MadeOuterSansRegular', sans-serif;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'MadeOuterSansRegular', sans-serif;
+    color: black;
+    padding-top: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+p{
+    font-family: MadeOuterSansLight, sans-serif;
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.fictionhover{
+    display: none;
+}
+
+.column1:hover .fictionhover{ display: block;
+    
+}
+
+.processhover{
+    display: none;
+}
+
+.column3:hover .processhover{ display: block;
+    
+}
+
+.column1, .column2, .column3 {
+  float: left;
+  width: 33.33%;
+}
+
+
+.row{
+    
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@font-face {
+    font-family:MadeOuterSansRegular;
+    src: url(MadeOuterSansRegular.otf);
+}
+
+@font-face {
+    font-family:MadeOuterSansThin;
+    src: url(MadeOuterSansThin.otf);
+}
+
+@font-face {
+    font-family:MadeOuterSansLight;
+    src: url(MadeOuterSansLight.otf);
+}

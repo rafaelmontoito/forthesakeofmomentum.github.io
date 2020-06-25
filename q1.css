@@ -1,0 +1,39 @@
+
+body{
+    background-color: black;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+h1{
+    font-family: 'MadeOuterSansRegular', sans-serif;
+    color: white;
+    padding-top: 300px;
+    padding-bottom: 10px;
+}
+
+@font-face {
+    font-family:MadeOuterSansRegular;
+    src: url(MadeOuterSansRegular.otf);
+}
+
+.column1, .column2 {
+  float: left;
+  width: 50%;
+    align-content: flex-end;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
